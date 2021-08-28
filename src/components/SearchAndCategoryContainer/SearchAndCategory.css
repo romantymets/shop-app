@@ -1,0 +1,88 @@
+.search-and-category {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    height: 61px;
+    width: 861px;
+    padding: 12px 27px 12px 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-search {
+    margin-bottom: 23px;
+    margin-right: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.input-category {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-right: 20px;
+    min-width: 290px;
+    margin-bottom: 23px;
+}
+
+.input-sorting {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 23px;
+    width: 182px;
+}
+
+.tick {
+    margin-right: 13px;
+}
+
+.svg {
+    margin-left: 12px;
+    margin-right: 9px;
+}
+.svg-search{
+    background: none;
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.hide {
+    display: none;
+}
+
+.category-select{
+    border: none;
+}
+
+option{
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #DEDEE0;
+    border-radius: 5px;
+    font-family: Heebo;
+    font-size: 14px;
+    line-height: 26px;
+}
+.svg-close{
+    position: absolute;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.select{
+    width: 100%;
+}

@@ -1,0 +1,179 @@
+.register-form-container {
+    margin-top: 125px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    min-height: 509px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.close-register {
+    width: 100%;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 10px 30px 0px 0px;
+}
+
+.close-register span:hover {
+    cursor: pointer;
+}
+
+.register-form-and-title {
+    margin: 5px 31px 10px 32px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.register-form-title {
+    height: 32px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #373738;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.register-form {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.register-form-invisible {
+    height: 15px;
+    background: none;
+}
+
+.register-form-login {
+    background: #FFFFFF;
+    height: 76px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.password-label {
+    width: 362px;
+    height: 40px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    letter-spacing: 0.4px;
+    color: #707070;
+}
+
+.password-label span {
+    margin-top: 10px;
+    width: 278px;
+}
+
+.btn-register {
+    margin-top: 40px;
+    width: 362px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 16px;
+    background: #FD7114;
+    border-radius: 5px;
+}
+
+.btn-register:hover {
+    margin-top: 40px;
+    width: 362px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 16px;
+    cursor: pointer;
+    background: #FD7114;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.btn-register span {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.register-form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form-login div {
+    width: 206px;
+}
+
+.login-text {
+    margin-right: 5px;
+    height: 26px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #373738;
+}
+
+.login-btn {
+    height: 26px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FD7114;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}

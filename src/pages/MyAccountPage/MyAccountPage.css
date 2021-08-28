@@ -1,0 +1,173 @@
+.account-wrap {
+    width: 900px;
+    min-height: 1024px;
+    background: #FFFFFF;
+    border: 1.08px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px rgba(121, 121, 121, 0.0527344);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.account-img {
+    margin-top: 90px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 88px;
+    height: 88px;
+    background: #DEDEE0;
+    border-radius: 50%;
+}
+
+.account-img div {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101010;
+}
+
+.account-text {
+    margin-top: 10px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #101010;
+}
+
+.checkout-container {
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.checkout-container div {
+    cursor: pointer;
+}
+
+.account-full-btn {
+    position: relative;
+    background: #FD7114;
+    border: 1.3px solid #DEDEE0;
+    box-sizing: border-box;
+    width: 164px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lite-span {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.account-lite-btn {
+    width: 164px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.3px solid #DEDEE0;
+    box-sizing: border-box;
+}
+
+.full-span {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #373738;
+}
+
+.box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
+    border-top: 15px solid #FD7114;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+}
+
+.account-input-container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.more-inf {
+    margin-top: 55px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.account-config {
+    width: 350px;
+}
+
+.btn-account-full {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #FD7114;
+    border-radius: 5px;
+}
+
+.btn-passw-full {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #FD7114;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}

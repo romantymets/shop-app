@@ -1,0 +1,33 @@
+.search-not-found-container {
+    width: 347px;
+    font-family: Heebo;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.search-not-found-bold-text {
+    display: flex;
+    align-self: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #101010;
+}
+
+.search-not-found-text {
+    display: flex;
+    align-self: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #373738;
+}

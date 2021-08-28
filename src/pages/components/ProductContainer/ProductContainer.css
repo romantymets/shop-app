@@ -1,0 +1,9 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 865px;
+    padding: 0px;
+}

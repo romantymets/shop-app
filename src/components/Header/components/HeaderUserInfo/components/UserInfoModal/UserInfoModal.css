@@ -1,0 +1,94 @@
+.user-info-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 234px;
+    min-height: 160px;
+    z-index: 999;
+    right: 12%;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.user-info-empty-div {
+    width: 100%;
+    height: 1px;
+    background: #E4E4E4;
+}
+
+.user-info-name-and-email {
+    width: 100%;
+    min-height: 73px;
+}
+
+.user-info-setting-log-out {
+    width: 100%;
+    min-height: 87px;
+}
+
+.user-info-name {
+    min-width: 65px;
+    margin-top: 17px;
+    margin-left: 16px;
+    height: 19px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    color: #373738;
+}
+
+.user-info-email {
+    min-width: 140px;
+    height: 19px;
+    margin-left: 16px;
+    margin-top: 1px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.4px;
+    color: #707070;
+}
+
+.user-info-setting {
+    margin-top: 11px;
+    min-width: 76px;
+    height: 26px;
+    margin-left: 16px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #373738;
+}
+
+.user-info-setting span:hover {
+    cursor: pointer;
+}
+
+.user-info-log-out {
+    min-width: 50px;
+    margin-left: 16px;
+    height: 26px;
+    left: 1061px;
+    top: 200px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #F44336;
+}
+
+.user-info-log-out span:hover {
+    cursor: pointer;
+}

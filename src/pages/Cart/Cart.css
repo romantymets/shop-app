@@ -1,0 +1,209 @@
+.cart-wrap {
+    min-width: 984px;
+    min-height: 964px;
+    background: #FFFFFF;
+    border: 1.08px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px rgba(121, 121, 121, 0.0527344);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.cart-title {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.cart-body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.cart-line {
+    min-height: 50px;
+    border: 1px solid #DEDEE0;
+    margin-left: 88px;
+    margin-right: 46px;
+}
+
+.cart-products {
+    width: 559px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cart-product {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    border: 1px solid #ECEEF0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 14px rgba(121, 121, 121, 0.0527344);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 40px;
+}
+
+.price-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-config {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.items-count {
+    margin-left: 88px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    color: #373738;
+
+}
+
+.total-count {
+    margin-left: 93px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    color: #373738;
+}
+
+.product-cart-img {
+    margin-right: 20px;
+    width: 125px;
+    height: 122px;
+}
+
+.product-cart-img img {
+    border-radius: 3px;
+}
+
+.product-options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.title-and-counter {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.options-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.counter-cart-container {
+    width: 120px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-cart-text {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #373738;
+}
+
+.delete-item-cart {
+    cursor: pointer;
+}
+
+.total-cart-count {
+    width: 100%;
+    margin-left: 92px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+
+.title-cart {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    max-height: 58px;
+    overflow: hidden;
+}
+
+.price-and-empty-cart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.empty-div-cart {
+    border: 1px solid #ECEEF0;
+    transform: rotate(180deg);
+    height: 120px;
+    width: 1px;
+    margin-right: 5%;
+    display: flex;
+    align-self: center;
+    margin-right: 25px;
+}
+
+.price-cart {
+    display: flex;
+    height: 100%;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,328 @@
+.single-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    padding: 25px;
+    margin-top: 20%;
+    min-width: 950px;
+    min-height: 550px;
+    background: #FFFFFF;
+}
+
+.close-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-item div:hover {
+    cursor: pointer;
+}
+
+.items-container {
+    margin-top: 30px;
+    margin-left: 45px;
+    min-width: 800px;
+    min-height: 400px;
+}
+
+.img-container {
+    display: flex;
+    align-self: flex-start;
+    padding: 4px;
+    width: 357px;
+    height: 254px;
+    background: rgba(121, 121, 121, 0.0527);
+    margin-right: 30px;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.title-container {
+    max-width: 433px;
+    overflow: hidden;
+    max-height: 23px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #373738;
+    margin-bottom: 10px;
+}
+
+.description-container {
+    font-family: Heebo;
+    overflow: hidden;
+    max-width: 433px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.price-container {
+    max-width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.price-text {
+    width: 170px;
+    height: 24px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #373738;
+}
+
+.price-number {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #373738;
+}
+
+.counter-container {
+    width: 81px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter-btn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #E0E0E0;
+}
+
+.counter-btn {
+    cursor: pointer;
+}
+
+.minus {
+    width: 50%;
+    border: 1px solid #707070;
+}
+
+.plus {
+    position: absolute;
+    width: 50%;
+    border: 1px solid #707070;
+    transform: rotate(-90deg);
+}
+
+.item-container {
+    margin-top: 30px;
+    width: 81px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-label {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.item-count {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #373738;
+}
+
+.total-container {
+    width: 130px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-title {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.total-number {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #373738;
+}
+
+.item-btn-container {
+    margin-top: 70px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn-buy-nav {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background: #FD7114;
+    margin-left: 120px;
+}
+
+.btn-buy-fav-lite {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 2px solid #FD7114;
+}
+
+.btn-buy-fav-color {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background: #FD7114;
+}
+
+.btn-buy-cart {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 2px solid #FD7114;
+    margin-right: 35px;
+}
+
+button:hover {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.btn-buy-fav-color:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-light {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: #FD7114
+}
+
+.span-color {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: #FFFFFF;
+}
+
+.btn-buy-color {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    min-width: 200px;
+    background: #FD7114;
+    margin-right: 35px;
+}
+
+.btn-buy-color:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
