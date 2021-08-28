@@ -53,7 +53,7 @@ const App = () => {
         <Portal />
         {(titleMass || accountUpd || passwordUpd) && <AddCartMessage/>}
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/shop-app">
             <HomePage />
           </Route>
           <Route path="/shop-app/search">
